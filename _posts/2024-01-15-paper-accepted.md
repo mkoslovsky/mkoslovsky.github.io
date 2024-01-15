@@ -1,0 +1,21 @@
+---
+layout: post
+title: Methodology paper accepted at Bayesian Analysis
+subtitle: Dynamic Functional Variable Selection for Multimodal mHealth Data
+tags: [Bayesian, publication]
+---
+Mobile health (mHealth) methods allow researchers to monitor study participants in their natural environments
+in order to improve health-related outcomes through behavior change. MHealth investigators are interested in
+understanding the feasibility of supplementing or even replacing actively collected data with passively collected
+data to reduce participant burden, while also increasing the temporal resolution of the data.  
+In this work, we propose a novel Bayesian dynamic functional variable selection method to explore the relations 
+between multimodal mHealth data collected on different time scales. Specifically, our approach leverages spiked 
+hierarchical species sampling priors to identify critical moments when a participant experiences momentary spikes 
+in a low-frequency outcome, characterize high-frequency outcome trajectories which are related to these critical 
+moments, and cluster the relational trends to explore potential subpopulations. We introduce continuous-time 
+multistate Markov model priors to inform selection based on information learned at previous assessments.
+We demonstrate the variable selection and clustering performance of our model in various simulation settings 
+motivated by the data structures found in mHealth studies. We then apply our model to multimodal intensive 
+longitudinal data collected in the Pathways between Socioeconomic Status and Behavioral Cancer Risk Factors
+Study to explore relations between physical activity passively collected with accelerometers and mood actively 
+collected with ecological momentary assessment methods.
